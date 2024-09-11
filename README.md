@@ -4,7 +4,7 @@ Esse repositório foi criado com o intuito de contribuir para aprendizagem de pr
 
 ## Materiais de referência
 * [Think Python 3ed](https://allendowney.github.io/ThinkPython/index.html#)
-* [Pense em Python 2ewd](https://penseallen.github.io/PensePython2e/)
+* [Pense em Python 2ed](https://penseallen.github.io/PensePython2e/)
 ## Exercícios
 
 ## Projetos
