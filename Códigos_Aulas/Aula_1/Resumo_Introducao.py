@@ -4,11 +4,61 @@ importante podermos trabalhar com os valores desta execução.
 
 Para isso, utilizamos variáveis. As variáveis são referências para a memória e nos possibilitam armazenar temporariamente
 o código executado.
+
+Existem algumas regras para nomear uma variável:
+- Não pode iniciar por número, por exemplo:  10reais
+- Não pode ter espaçamento entre palavras: dez reais
+- Não pode ter caracteres especiais: 10+reais
+
+Assim, poderia ser: dezReais, dez_reais, dezreais, reais10
+
+
 '''
 
 resultadoInteiro = 1+1
 resultadoFloat = 1.1+2
 resultadoString = "Olá, mundo!"
+
+'''
+
+Python é uma linguagem de tipagem dinâmica. Isso significa que o tipo das variáveis muda conforme o valor
+que elas armazenam.
+
+'''
+variavel_x = 1
+print(type(variavel_x))
+variavel_x = 1.0
+print(type(variavel_x))
+variavel_x = "1"
+print(type(variavel_x))
+
+
+'''
+Python é uma linguagem de tipagem forte. Tipagem forte significa que o interpretador do Python avalia as expressões 
+(evaluate) e não faz coerções automáticas entre tipos não compatíveis (conversões de valores).
+
+a = 10
+b = "2"
+print(a+b)
+
+'''
+
+'''
+Com a possibilidade de armazenar valores dentro de variáveis, podemos agora construir expressões.
+
+Assim como na matemática, há uma ordem de precedência nas expressões:
+- Primeiro o que está dentro de parêntesis
+- Expoentes
+- Multiplicação ou Divisão
+- Adição ou Subtração
+
+'''
+resultado_1 = 3 / 1 + 2 * 3 ** 2
+
+resultado_2 = 3 / (1 + 2) * 3 ** 2
+
+print(f'{resultado_1} != {resultado_2}')
+
 
 '''
 Podemos utilizar funções pré-definidas pela linguagem Python. Uma delas, muito importante, é a função print. Para que ela
