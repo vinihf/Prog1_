@@ -3,7 +3,7 @@ https://allendowney.github.io/ThinkPython/chap03.html
 
 O uso de funções possui dois grandes objetivos:
 1 - Agrupar funcionalidades em pequenos módulos
-2 - Reaproveitamento de código
+2 - Reaproveitar código
 
 Vamos tentar fazer um teste com a música "Sujeito de sorte", do cantor Belchior.
 https://www.youtube.com/watch?v=mGAra8tXeJc
@@ -39,13 +39,29 @@ def refrao()->None:
     print("Ano passado eu morri, mas esse ano eu não morro")
 
 def main():
-    verso()
+    '''verso()
     print("\n")
     refrao()
     print("\n")
     verso()
     print("\n")
     refrao()
+    '''
+
+    '''
+    E se pudéssemos repetir um determinado número de vezes um conjunto de códigos?
+    
+    Para isso existem os comandos de repetição. 
+    
+    O primeiro que iremos estudar é o comando for.
+    
+    '''
+
+    for i in range(3):
+        verso()
+        print("\n")
+        refrao()
+        print("\n")
 
 if __name__ == '__main__':
     main()
