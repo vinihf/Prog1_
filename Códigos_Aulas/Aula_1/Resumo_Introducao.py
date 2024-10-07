@@ -1,4 +1,8 @@
 '''
+
+https://allendowney.github.io/ThinkPython/chap01.html
+https://allendowney.github.io/ThinkPython/chap02.html
+
 Ao executar o código no terminal do Python, é obtido o resultado  imediato da operação. Em um script mais formal, é
 importante podermos trabalhar com os valores desta execução.
 

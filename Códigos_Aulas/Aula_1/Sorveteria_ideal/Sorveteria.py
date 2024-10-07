@@ -9,9 +9,9 @@ def calcula_preco_com_retorno(quantidade:int = 1, preco_unitario:float = 5.5)->f
     """
     Função para calcular o preço da compra de sorvetes
 
-    :param quantidade: quantidade de sorvetes
-    :param preco_unitario: preço de um sorvete
-    :return: preço da compra
+    quantidade: quantidade de sorvetes(int)
+    preco_unitario: preço de um sorvete(float)
+    return: preço da compra(float)
     """
     preco = quantidade * preco_unitario
-    return preco
+    return float(preco)
