@@ -17,6 +17,8 @@ def somar(valor1:int, valor2:int) -> int:
 
     >>> somar(2,4)
     6
+    >>> somar(2,2)
+    3
     """
     return valor1 + valor2
 
