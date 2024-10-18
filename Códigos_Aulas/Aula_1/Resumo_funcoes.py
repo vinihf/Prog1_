@@ -1,7 +1,7 @@
 '''
 
     Agora iremos começar a definir nossas próprias funções. Para isso, vamos criar uma função que calcula
-    o preço a ser pago na compra dos sorvetes.
+    o preço a ser pago na compra de sorvetes.
 
     Observe que o parâmetro, que é a variável que iremos precisar na função, na segunda função
     já possui um valor atribuído. A isso damos o nome de parâmetro default. Significa que

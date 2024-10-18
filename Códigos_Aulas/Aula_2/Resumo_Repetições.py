@@ -16,7 +16,7 @@ def verso()->None:
     """
     Imprime  primeiro verso da música Sujeito de sorte, de Belchior
 
-    Returns:
+    Returns: None
 
     """
     print("Presentemente eu posso me considerar um sujeito de sorte")
@@ -28,7 +28,7 @@ def refrao()->None:
     """
     Imprime  o refrão da música Sujeito de sorte, de Belchior
 
-    Returns:
+    Returns: None
 
     """
     print("Tenho sangrado demais, tenho chorado pra cachorro")

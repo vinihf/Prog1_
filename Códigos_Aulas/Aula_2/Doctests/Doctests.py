@@ -18,12 +18,6 @@ def somar(valor1:int, valor2:int) -> int:
     >>> somar(2,4)
     6
     >>> somar(2,2)
-    3
+    4
     """
     return valor1 + valor2
-
-def main():
-    print(somar(2,4))
-
-if __name__ == '__main__':
-    main()

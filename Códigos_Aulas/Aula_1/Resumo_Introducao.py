@@ -3,11 +3,11 @@
 https://allendowney.github.io/ThinkPython/chap01.html
 https://allendowney.github.io/ThinkPython/chap02.html
 
-Ao executar o código no terminal do Python, é obtido o resultado  imediato da operação. Em um script mais formal, é
-importante podermos trabalhar com os valores desta execução.
+Ao executar o código no terminal do Python, é obtido o resultado  imediato da operação.
+Em um script mais formal é importante podermos trabalhar com os valores desta execução.
 
-Para isso, utilizamos variáveis. As variáveis são referências para a memória e nos possibilitam armazenar temporariamente
-o código executado.
+Para isso, utilizamos variáveis. As variáveis são referências para a memória e nos possibilitam
+armazenar temporariamente o código executado.
 
 Existem algumas regras para nomear uma variável:
 - Não pode iniciar por número, por exemplo:  10reais
