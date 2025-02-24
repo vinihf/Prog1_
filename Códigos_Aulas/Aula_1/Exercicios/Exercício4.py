@@ -1,18 +1,19 @@
 '''
 
-Se uma pessoa corre 10km em 42min e 42s, qual é a média de velocidade em km/hora?
+Crie uma função que calcula o valor de troco a ser devolvido a partir do valor da compra e do valor pago
+pela cliente
 
 '''
 
+def troco(valor_compra:float,valor_pago:float)->float:
+    return valor_pago-valor_compra
+
+
 def main():
-    distancia_km = 10
-    tempo_minutos = 42
-    tempo_segundos = 42
-    # Converte o tempo total para horas
-    tempo_total_horas = (tempo_minutos * 60 + tempo_segundos) / 3600
-    # Calcula a velocidade média
-    velocidade_media_kmh = distancia_km / tempo_total_horas
-    print(f'A velocidade média é de :{velocidade_media_kmh:4.3f} km/h')
+    compra = float(input('Qual é o valor total da compra? '))
+    pagamento = float(input('Qual é o valor do pagamento? '))
+    valor_troco = troco(compra,pagamento)
+    print(f'O troco da compra é de R${valor_troco:.2f}')
 
 if __name__ == '__main__':
     main()
