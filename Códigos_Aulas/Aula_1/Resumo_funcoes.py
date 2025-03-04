@@ -17,7 +17,7 @@ def calcula_preco_com_retorno(quantidade = 1):
     preco = quantidade * 5.5
     return preco
 
-''' A primeir função, sem retorno, imprime diretamente o conteúdo do programa. '''
+''' A primeira função, sem retorno, imprime diretamente o conteúdo do programa. '''
 calcula_preco(4)
 
 ''' Mas, e se quisermos utilizar o valor processar e imprimir de outra forma?'''
