@@ -17,7 +17,6 @@ def verso()->None:
     Imprime  primeiro verso da música Sujeito de sorte, de Belchior
 
     Returns: None
-
     """
     print("Presentemente eu posso me considerar um sujeito de sorte")
     print("Porque apesar de muito moço, me sinto são e salvo e forte")
@@ -56,7 +55,6 @@ def main():
     O primeiro que iremos estudar é o comando for.
     
     '''
-
     for i in range(3):
         verso()
         print("\n")
