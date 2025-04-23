@@ -1,7 +1,8 @@
 def main():
+    senha_correta = "admin123"
     while True:
         senha = input("Informe a senha:")
-        if senha == "admin123":
+        if senha == senha_correta:
             print("Acesso permitido")
             break
         else:
