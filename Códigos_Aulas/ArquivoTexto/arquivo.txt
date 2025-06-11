@@ -1,0 +1,6 @@
+Python#Semestre 1
+Java#Semestre 2
+HTML#Semestre 3
+CSS#Semestre 3
+Javascript#Semestre 3
+SQL#Semestre 3
