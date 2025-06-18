@@ -41,3 +41,12 @@ while True:
         break
     soma+=valor
 print(f'A soma total é de {soma}')    
+
+'''
+Podemos também utilizar o laço while para fazer uma validação simples de dados.
+Por exemplo, vamos supor que só são aceitos valores positivos em um programa:
+'''
+valor = -1
+while valor<0:
+    valor = int(input("Informe um valor positivo:"))
+print(valor)
