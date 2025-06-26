@@ -31,14 +31,55 @@ def muitosCirculos(qtd):
         t.penup()
         t.goto(-250+(i*tamanho),135-(i*tamanho))
         t.pendown()
-    
+
+def estrela5Pontas():
+    for i in range(5):
+        t.forward(150)
+        t.right(144)
+
+def flor6Petalas():
+    for i in range(6):
+        t.circle(50)
+        t.right(60)
+
+def rosto():
+    t.speed(0)
+
+    # Cabeça
+    t.penup()
+    t.goto(0, -100)
+    t.pendown()
+    t.fillcolor("peachpuff")
+    t.begin_fill()
+    t.circle(100)
+    t.end_fill()
+
+    # Olhos
+    for x in [-35, 35]:
+        t.penup()
+        t.goto(x, 20)
+        t.pendown()
+        t.fillcolor("white")
+        t.begin_fill()
+        t.circle(15)
+        t.end_fill()
+
+    # Boca
+    t.penup()
+    t.goto(-30, -40)
+    t.setheading(-60)
+    t.width(5)
+    t.pencolor("red")
+    t.pendown()
+    t.circle(40, 120)
+
+    t.hideturtle()
 
 t = turtle.Turtle()
-
 # Podemos definir um tamanho de tela
-tela = turtle.Screen()
-tela.setup(600,400)
+#tela = turtle.Screen()
+#tela.setup(600,400)
 #print(tela.window_height())
 #print(tela.window_width())
-muitosCirculos(5)
+rosto()
 turtle.done()
