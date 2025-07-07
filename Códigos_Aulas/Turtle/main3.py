@@ -1,0 +1,20 @@
+import turtle
+
+repeticoes = int(input("Quantas repetições?"))
+t = turtle.Turtle()
+tela = turtle.Screen()
+tela.setup(1500,500)
+t.penup()
+t.goto(-20,30)
+t.pendown()
+t.fillcolor("yellow")
+t.begin_fill()
+for i in range(repeticoes):
+    t.pencolor("blue")
+    t.pensize(3)
+    t.forward(60)
+    t.right(60)
+    t.pencolor("green")
+    t.forward(60)
+t.end_fill()
+turtle.done()
